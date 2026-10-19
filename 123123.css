@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+/* --- ХЕДЕР --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 6%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.logo span {
+    color: #888888;
+    font-weight: normal;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #555555;
+}
+
+.login {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* --- ГОЛОВНИЙ БЛОК (HERO) --- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 6%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 48%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+
+.hero-text h1 strong {
+    display: block;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #333333;
+}
+
+/* Кнопки */
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #777777;
+}
+
+/* Зображення */
+.hero-image {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* --- ЕЛЕМЕНТ СКРОЛУ ВНИЗ --- */
+.scroll {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.scroll span {
+    display: block;
+    font-size: 22px;
+    margin-top: 2px;
+}
